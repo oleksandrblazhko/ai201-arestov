@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2024-03-30T14:56:05.005Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="HAKUUmHDuA8s_LPr8oEM" version="24.2.1" type="device">
+  <diagram id="YNHzd1hihMfdCxLyySpB" name="Страница 1">
+    <mxGraphModel dx="1075" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-60" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="80" width="580" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-61" value="Естет-споживач" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="219" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-62" value="надати&amp;nbsp;своє&lt;br&gt;місцезнаходження" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="209" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RLoN9qtMszMjtE_mt2D1-65" target="RLoN9qtMszMjtE_mt2D1-66" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="135" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-65" value="тривога api" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="105" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-66" value="надати данні про безпеку у регіоні" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="100" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-69" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RLoN9qtMszMjtE_mt2D1-71" target="RLoN9qtMszMjtE_mt2D1-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RLoN9qtMszMjtE_mt2D1-71" target="RLoN9qtMszMjtE_mt2D1-75" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-71" value="google maps api" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="279" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-73" value="include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-74" value="надати&lt;br&gt;найближчі музеї" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="219" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-75" value="надати&lt;br&gt;найближчі бомбосховища" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="310" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="RLoN9qtMszMjtE_mt2D1-74" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="740" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="289" />
+              <mxPoint x="740" y="289" />
+              <mxPoint x="740" y="259" />
+              <mxPoint x="690" y="259" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-81" value="" style="endArrow=none;html=1;rounded=0;" parent="1" source="RLoN9qtMszMjtE_mt2D1-61" target="RLoN9qtMszMjtE_mt2D1-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="279" as="sourcePoint" />
+            <mxPoint x="230" y="229" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-84" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="RLoN9qtMszMjtE_mt2D1-74" target="RLoN9qtMszMjtE_mt2D1-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-86" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="RLoN9qtMszMjtE_mt2D1-75" target="RLoN9qtMszMjtE_mt2D1-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="339" as="sourcePoint" />
+            <mxPoint x="420" y="329" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-87" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.9;entryY=0.189;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" parent="1" source="RLoN9qtMszMjtE_mt2D1-66" target="RLoN9qtMszMjtE_mt2D1-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="180" as="sourcePoint" />
+            <mxPoint x="500" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-88" value="include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="470" y="219" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-89" value="include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="460" y="279" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-93" value="надіслати online повідомлення" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-94" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.751;exitY=0.049;exitDx=0;exitDy=0;dashed=1;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" parent="1" source="RLoN9qtMszMjtE_mt2D1-93" target="RLoN9qtMszMjtE_mt2D1-62" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="450" as="sourcePoint" />
+            <mxPoint x="149.25060907172542" y="373.8715575812213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RLoN9qtMszMjtE_mt2D1-95" value="include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="230" y="259" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
