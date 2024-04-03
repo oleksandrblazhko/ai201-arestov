@@ -1,0 +1,79 @@
+{
+  "description": "Опис предметної області ПП",
+  "type": "object",
+  "properties": {
+     "gmaps api": {
+      "description": "Інформація про знайдений заклад",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "назва закладу",
+          "type": "string"
+        },
+        "rating": {
+          "description": "рейтинг закладу",
+          "type": "integer"
+        },
+          "location": {
+         "description": "місцезнаходження закладу",
+         "type": "object",
+         "properties": {
+           "coordX": {
+             "description": "Координата закладу по осі х",
+             "type": "integer"
+           },
+           "coordY": {
+             "description": "Координата закладу по осі y",
+             "type": "integer"
+           },
+      },
+        "required": [
+            "coordX",
+            "coordY"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "rating"
+      ]
+    },
+      
+    "consumer": {
+      "description": "Опис споживача",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "Ім'я споживача",
+          "type": "string"
+        },
+        "mail": {
+          "description": "Пошта споживача",
+          "type": "string"
+        },
+         "location": {
+         "description": "місцезнаходження користувача",
+         "type": "object",
+         "properties": {
+           "coordX": {
+             "description": "Координата користувача по осі х",
+             "type": "integer"
+           },
+           "coordY": {
+             "description": "Координата користувача по осі y",
+             "type": "integer"
+           },
+      },
+        "required": [
+            "coordX",
+            "coordY"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "mail"
+      ]
+    }
+  }
+}
