@@ -1,0 +1,18 @@
+{
+  "gmaps api": {
+    "name": "WEartMuseum",
+    "rating": 4,
+    "location": {
+      "coordX": 1232,
+      "coordY": 2332,
+    }
+  },
+  "consumer": {
+    "name": "Yaroslav",
+    "mail": "yarik@gmail.com",
+    "location": {
+      "coordX": 228,
+      "coordY": 1337,
+    }
+  }
+}
