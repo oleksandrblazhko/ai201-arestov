@@ -2,7 +2,7 @@
   "description": "Опис предметної області ПП",
   "type": "object",
   "properties": {
-     "maps api": {
+     "gmaps api": {
       "description": "Інформація про знайдений заклад",
       "type": "object",
       "properties": {
