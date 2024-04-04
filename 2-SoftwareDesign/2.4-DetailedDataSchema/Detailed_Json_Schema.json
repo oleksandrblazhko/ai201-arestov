@@ -1,0 +1,97 @@
+{
+  "description": "Опис предметної області ПП",
+  "type": "object",
+  "properties": {
+     "maps api": {
+      "description": "Інформація про знайдений заклад",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "назва закладу",
+          "type": "string",
+          "minLength": 1,
+  	  	  "maxLength": 64,
+          "pattern": "^[a-z_]+$"
+        },
+        "rating": {
+          "description": "рейтинг закладу",
+          "type": "integer",
+          "minimum": 0,
+  	  	  "maximum": 5
+        },
+          "location": {
+         "description": "місцезнаходження закладу",
+         "type": "object",
+         "properties": {
+           "coordX": {
+             "description": "Координата закладу по осі х",
+             "type": "integer",
+          	 "minimum": 0,
+  	  	  	 "maximum": 2048
+           },
+           "coordY": {
+             "description": "Координата закладу по осі y",
+             "type": "integer",
+          	 "minimum": 0,
+  	  	  	 "maximum": 2048
+           },
+      },
+        "required": [
+            "coordX",
+            "coordY"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "rating"
+      ]
+    },
+      
+    "consumer": {
+      "description": "Опис споживача",
+      "type": "object",
+      "properties": {
+        "name": {
+          "description": "Ім'я споживача",
+          "type": "string",
+          "minLength": 1,
+  	  	  "maxLength": 64,
+          "pattern": "^[a-z_]+$"
+        },
+        "mail": {
+          "description": "Пошта споживача",
+          "type": "string",
+          "minLength": 1,
+  	  	  "maxLength": 64
+        },
+         "location": {
+         "description": "місцезнаходження користувача",
+         "type": "object",
+         "properties": {
+           "coordX": {
+             "description": "Координата користувача по осі х",
+             "type": "integer",
+          	 "minimum": 0,
+  	  	  	 "maximum": 2048
+           },
+           "coordY": {
+             "description": "Координата користувача по осі y",
+             "type": "integer",
+          	 "minimum": 0,
+  	  	  	 "maximum": 2048
+           },
+      },
+        "required": [
+            "coordX",
+            "coordY"
+          ]
+        }
+      },
+      "required": [
+        "name",
+        "mail"
+      ]
+    }
+  }
+}
