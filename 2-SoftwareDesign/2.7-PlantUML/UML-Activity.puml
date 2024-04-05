@@ -1,0 +1,18 @@
+@startuml
+
+title Activity Diagram 
+
+start
+
+:User share location to program; 
+:Program checks user location;
+
+if (Is Location valid?) then (yes)
+  :Give info about security;
+else (no)
+  :Your data is corrupted, try later!;
+endif
+
+stop
+
+@enduml
