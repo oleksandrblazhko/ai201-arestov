@@ -1,0 +1,14 @@
+@startuml 
+title Usecase for Information system
+left to right direction
+skinparam packageStyle rect
+
+actor Consumer
+
+rectangle {
+  Consumer --> (Share Location)
+  (Send Message) ..> (Share Location) : <<include>>
+  (Get info about security) ..> (Share Location) : <<include>>
+  (Get nearest museums) ..> (Share Location) : <<include>>
+}
+@enduml
