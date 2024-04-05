@@ -1,0 +1,13 @@
+@startuml
+
+title Concept of Classes Diagram 
+Class Location
+Class Consumer
+Class Alarm_API
+Class Google_maps_API
+
+Consumer"1" o-- "1"Location 
+Google_maps_API"1" o-- "1"Location
+Alarm_API"1" o-- "1"Location
+
+@enduml
