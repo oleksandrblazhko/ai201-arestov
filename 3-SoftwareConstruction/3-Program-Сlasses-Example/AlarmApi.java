@@ -42,7 +42,7 @@ public class AlarmApi {
         // вычисление значений по местоположению пользователя
         getSecurity(userLocation);
         // вывод значений на экран
-        System.out.println("danger: " + dangerMeter + "% " + "weapon type: " + weaponType + "% on " + userLocation);
+        System.out.println("danger: " + dangerMeter + ", weapon type: " + weaponType + " on " + userLocation);
     }
 
     private void getSecurity(Location location){//входящие параметры: локация откуда берутся значения
